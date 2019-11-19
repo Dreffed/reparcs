@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Dreffed/reparcs/issues"
   },
-  "homepage": "https://github.com/Dreffed/reparcs#readme"
+  "homepage": "https://github.com/Dreffed/reparcs#readme",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
 }
