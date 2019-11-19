@@ -1,0 +1,25 @@
+{
+  "name": "reparcs",
+  "version": "1.0.0",
+  "description": "A tool to scrape websites using puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreffed/reparcs.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "scraper",
+    "nodejs",
+    "haystack"
+  ],
+  "author": "David Gloyn-Cox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dreffed/reparcs/issues"
+  },
+  "homepage": "https://github.com/Dreffed/reparcs#readme"
+}
