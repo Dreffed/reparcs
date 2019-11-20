@@ -59,5 +59,11 @@ typings/
 
 # next.js build output
 .next
-pdfs/page1.pdf
-screenshots/page1.png
+
+# working folders
+pdfs
+pdfs/*.pdf
+screenshots
+screenshots/*.png
+json
+json/*.json
