@@ -1,2 +1,4 @@
 # reparcs
-Webscraper for Puppeteer for haystack
+Webscraper using Puppeteer for Haystack project
+
+
