@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Dreffed/reparcs#readme",
   "dependencies": {
+    "lodash": "^4.17.15",
     "puppeteer": "^2.0.0"
   }
 }

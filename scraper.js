@@ -1,6 +1,12 @@
 // include modules
 const puppeteer = require('puppeteer')
 
+// environment variables
+process.env.NODE_ENV = 'development';
+
+// config variables
+const config = require('./config/config.js');
+
 // main loop
 void(async () => {
     try {
@@ -11,8 +17,17 @@ void(async () => {
         const page = await browser.newPage()
 
         // navigate to a page
-        await page.goto('https://scrapethissite.com/pages/forms/')
+        var scan_details = global.gConfig.urls[0]
+        console.log(scan_details)
 
+        await page.goto(scan_details.url)
+        await page.screenshot({path: 'screnn.png'});
+
+        // need to log on to the system...
+        // we can use username / password ro integrated logon...
+        
+
+        /*
         // add a table scraper for this page.. tailored to the site..
         const teams = await page.evaluate(() => {
             // get the ineer text from element helper
@@ -53,6 +68,7 @@ void(async () => {
             JSON.stringify(teams, null, 2),
             (err) => err ? console.error('Data not written', err): console.log('Data Written!')
         )
+        // */
 
         // close and clean up
         await browser.close()
