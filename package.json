@@ -24,7 +24,7 @@
   "homepage": "https://github.com/Dreffed/reparcs#readme",
   "dependencies": {
     "excel4node": "^1.7.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "puppeteer": "^2.0.0"
   }
 }
